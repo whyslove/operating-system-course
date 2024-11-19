@@ -1,0 +1,29 @@
+My PID 1810
+Process 1810 is alive.
+stress-ng: info:  [1810] setting to a 8 secs run per stressor
+stress-ng: info:  [1810] dispatching hogs: 1 cpu
+test:
+cpu.stat: usage_usec 12757
+	user_usec 3752
+	system_usec 9005
+	core_sched.force_idle_usec 0
+	nr_periods 5
+	nr_throttled 5
+	throttled_usec 4170070
+	nr_bursts 0
+	burst_usec 0
+
+My PID 1820
+stress-ng: info:  [1820] setting to a 8 secs run per stressor
+stress-ng: info:  [1820] dispatching hogs: 1 vm
+stress-ng: info:  [1810] skipped: 0
+stress-ng: info:  [1810] passed: 1: cpu (1)
+stress-ng: info:  [1810] failed: 0
+stress-ng: info:  [1810] metrics untrustworthy: 0
+stress-ng: info:  [1810] successful run completed in 10.00 secs
+stress-ng: info:  [1820] skipped: 0
+stress-ng: info:  [1820] passed: 1: vm (1)
+stress-ng: info:  [1820] failed: 0
+stress-ng: info:  [1820] metrics untrustworthy: 0
+stress-ng: info:  [1820] successful run completed in 10.11 secs
+Finished.
