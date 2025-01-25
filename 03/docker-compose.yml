@@ -1,0 +1,17 @@
+services:
+  server:
+    build:
+      context: ./server
+    ports:
+      - "8080:8080"
+    volumes:
+      - fs:/fs
+
+  client:
+    build:
+      context: ./client
+    depends_on:
+      - server
+
+volumes:
+  fs:
